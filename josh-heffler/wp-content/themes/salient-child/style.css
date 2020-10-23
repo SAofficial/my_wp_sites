@@ -1,0 +1,1462 @@
+/*
+Theme Name: Salient Child Theme
+Theme URI: http: //mysite.com/
+Description: This is a custom child theme for Salient
+Author: My Name
+Author URI: http: //mysite.com/
+Template: salient
+Version: 0.1
+*/
+
+.main_sec .challenge_box img {
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+	width:100% !important;
+}
+.challenge {
+    text-align: center;
+}
+
+/*****************Custom Pages Revision Css****************/
+.mySelect span {
+    font-size: 24px;
+}
+.history_box label {
+    font-size: 14px;
+}
+.history_clm select {
+    min-height: 45px;
+}
+/* .history_box label {
+    width: 17%;
+} */
+.Profile video {
+    width: 100%;
+}
+.reviews_btn a {
+    background-color: #fd9424;
+    padding: 2px 7px;
+    color: #fff;
+    font-size: 25px;
+    font-family: Teko;
+    float: right;
+    border-radius: 5px;
+    transition: .5s !important;
+}
+.reviews_btn a:hover {
+    background-color: #050720;
+}
+.details_inner input {
+    padding: 10px 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.details_inner input[type="number"] {
+    min-height: 50px;
+}
+
+.details_inner button {
+    font-size: 24px;
+    font-family: Teko;
+    padding: 5px 18px !important;
+    border: none;
+    background-color: #ff8a0d;
+    color: #fff;
+    cursor: pointer;
+}
+
+.details_inner .mySelect label.myLabel {
+    width: unset !important;
+    padding: 5px 30px;
+    margin-bottom: 0px;
+}
+.details_inner button:hover {
+    background-color: #1c1d24;
+}
+.Challenge_image img {
+    width: 100%;
+    height: 300px !important;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.details_inner form#stripe_form {
+    margin-top: 35px;
+}
+
+.our_challenges .details_inner .col.span_12 {
+    margin-bottom: 35px;
+}
+/*****************Custom Pages Revision Css****************/
+
+body {
+  margin: 0;
+  font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+.col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+div#DataTables_Table_0_length {
+    margin-top: 16px;
+}
+div.dataTables_wrapper div.dataTables_length label {
+    font-weight: normal;
+    text-align: left;
+    white-space: nowrap;
+}
+div.dataTables_wrapper div.dataTables_length select {
+    width: 75px;
+    display: inline-block;
+	padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+	    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+div.dataTables_wrapper div.dataTables_filter {
+    text-align: right;
+}
+div.dataTables_wrapper div.dataTables_filter {
+    text-align: right;
+    float: right;
+}
+div.dataTables_wrapper div.dataTables_filter label {
+    font-weight: normal;
+    white-space: nowrap;
+    text-align: left;
+}
+div.dataTables_wrapper div.dataTables_filter input {
+    margin-left: 0.5em;
+    display: inline-block;
+    width: auto;
+	    padding: 10px !important;
+    height: auto !important;
+    border: 1px solid #ebebeb !important;
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 30px;
+	background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+div#example_length {
+    margin: 20px 0 0 0;
+}
+.col-md-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+.col-md-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+div.dataTables_wrapper div.dataTables_info {
+    padding-top: 0.85em;
+    white-space: nowrap;
+}
+div#DataTables_Table_0_info {
+    margin-top: 20px;
+}
+div.dataTables_wrapper div.dataTables_paginate {
+    margin: 0;
+    white-space: nowrap;
+    text-align: right;
+}
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+    margin: 2px 0;
+    white-space: nowrap;
+    justify-content: flex-end;
+}
+.pagination {
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: .25rem;
+}
+.page-item.disabled .page-link {
+    color: #1e252b !important;
+    pointer-events: none;
+    cursor: auto;
+    background-color: #fff;
+    border-color: #dadada !important;
+    padding: 10px 15px 8px 15px;
+	margin-left: 0;
+	border: 1px solid #dee2e6;
+	    position: relative;
+    display: block;
+}
+.page-item:first-child .page-link {
+    margin-left: 0;
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+}
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #ff8a0d !important;
+    border-color: #ff8a0d !important;
+    padding: 10px 12px 10px 12px;
+    display: block;
+}
+.page-item:last-child .page-link {
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+div.table-responsive>div.dataTables_wrapper>div.row {
+    margin: 0;
+}
+div#example_wrapper .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+	    padding-bottom: 0px;
+}
+.col-sm-12 {
+    width: 100%;
+}
+ul.pagination li{
+	list-style-type:none ;
+}
+
+
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+
+/************************************CUSTOM PAGES CSS***************************************/
+
+/******LOGIN REGISTER PAGE CSS**************/
+.main_sec h2,.user_dashboard h4,.user_dashboard h2{
+    color: #fd9424;
+}
+
+.main_sec {
+    margin-top: 40px;
+}
+.login_clm {
+    background-color: #f8f9fa !important;
+    display: flow-root;
+    border: 10px solid #fff;
+    box-shadow: 0 0 15px #0000001f;
+    padding: 30px 30px;
+    min-height: 524px;
+}
+.login_clm .regiter_box {
+    display: flex;
+    align-items: center;
+}
+.login_clm .fields {
+    position: relative;
+    margin-bottom: 20px;
+}
+.login_clm .fields input {
+    padding: 10px 30px 10px 50px;
+    background-color: #fff;
+}
+.login_clm .fields {
+    position: relative;
+}
+.login_clm .fields i {
+    position: absolute;
+    left: 10px;
+    top: 7px;
+    color: #c9c9c9;
+}
+.login_clm .fields ::placeholder {
+    color: #c9c9c9 !important;
+}
+.login_clm .forget_anchor a {
+    float: right;
+}
+.login_clm button,.user_dashboard button{
+    background-color: #fd9424;
+    border: none;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 16px;
+    color: #fff;
+    width: 100%;
+    margin-top: 20px;
+}
+.login_clm button,.user_dashboard button {
+/*     background-color: #fd9424; */
+    border: none;
+    border-radius: 0 !important;
+    padding: 10px;
+    font-size: 25px;
+    color: #fff;
+    width: 100%;
+    margin-top: 20px;
+    font-family: teko;
+    text-transform: uppercase;
+	background: linear-gradient(to left, #fd9424 50%, #050720 50%);
+    background-size: 212%;
+    background-position: right bottom;
+	transition:.8s !important;
+}
+.login_clm button:hover,.user_dashboard button:hover{
+   background-position: left bottom;
+    background-size: 210%;
+    color: #fff;	
+	cursor:pointer;
+}
+.login_clm .social_btns ul li {
+    list-style: none;
+}
+/******LOGIN REGISTER PAGE CSS**************/
+
+/******FORGET PASSWORD PAGE CSS************/
+.forget_pass {
+    padding: 0% 23%;
+}
+.forget_pass .login_clm {
+    min-height: auto;
+}
+.forget_pass .login_clm h2 {
+    text-align: center;
+}
+.forget_pass .login_clm button {
+    margin-top: 0;
+}
+/******FORGET PASSWORD PAGE CSS************/
+
+/******REREIVE PASSWORD PAGE CSS***********/
+.forget_pass .login_clm .img_box img {
+    margin: 0px auto 15px;
+    display: table;
+}
+/******REREIVE PASSWORD PAGE CSS***********/
+
+/******USER DASHBOARD PAGE CSS*************/
+.user_dashboard {
+    display: flow-root;
+    margin-top: 40px;
+}
+.user_dashboard .menu_panel {
+    background-color: #050720;
+    padding: 0px 0px;
+}
+a.menu_active{
+    background-color: #ff8a0d !important;	
+}
+.user_dashboard .menu_panel ul li a:hover {
+    background-color: #ff8a0d;
+}
+.user_dashboard .menu_panel ul li a {
+    padding: 15px 25px !important;
+    display: block;
+    color: #fff;
+    font-family: manjari-R !important;
+    font-size: 14px;
+    text-transform: uppercase;
+	transition:.4s !important;
+}
+.user_dashboard .menu_panel ul li {
+    list-style: none;
+}
+.user_dashboard .menu_panel ul {
+    margin: 0;
+}
+.user_dashboard .user_panel {
+    margin-bottom: 18px !important;
+    display: flow-root;
+}
+.user_dashboard .user_panel:last-child {
+    margin-bottom: 0 !important;
+}
+.user_dashboard .user_panel a:hover img {
+    filter: brightness(0);
+    -webkit-animation: mover .1s infinite  alternate;
+    animation: mover .1s infinite  alternate;		
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(5px); }
+    100% { transform: translateY(-5px); }
+}
+@keyframes mover {
+    0% { transform: translateY(5px); }
+    100% { transform: translateY(-5px); }
+}
+.user_dashboard .user_panel .user_box {
+    background-color: #ff8a0d;
+    border: 4px solid #fff;
+    box-shadow: 0 0 10px #00000045;
+    padding: 20px;
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+}
+.user_dashboard .user_panel .user_box .icon_box {
+    width: 100px;
+    margin-right: 15px;
+}
+.user_dashboard .user_panel .user_box .icon_box img {
+    margin: 0;
+}
+.user_dashboard .user_panel .user_box h4 {
+    color: #fff;
+}
+
+
+.phone_menu_btn {
+    display: none;
+}
+.phone_menu_body {
+    background-color: rgb(5,7,32,0.9);
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    overflow: hidden;
+    padding: 10% 0%;
+    display: none;
+}
+.phone_menu_body .phone_menu ul li a:hover {
+    background-color: #ff8a0d !important;
+}
+.phone_menu_body .phone_menu ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+}
+.phone_menu_body .phone_menu ul li{
+	list-style:none !important;
+}
+.phone_menu_body .phone_menu ul {
+    margin: 0;
+}
+.close_btn a:hover {
+    color: #ff8a0d;
+    transform: rotate(90deg);
+}
+.close_btn a {
+    font-size: 50px;
+    position: relative;
+    position: relative;
+    position: relative;
+    left: 14px;
+    top: -17px;
+    transition: .7s !important;
+}
+/******USER DASHBOARD PAGE CSS*************/
+
+/******USER PROFILE PAGE CSS***************/
+.user_dashboard .user_panel .login_clm .fields input {
+    padding: 10px;
+}
+.user_dashboard .user_panel .login_clm {
+    padding: 30px 15px;
+    min-height: 476px;
+}
+.mySelect {
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+}
+label.myLabel {
+    color: #fff;
+    font-size: 24px;
+    margin: 0px 0px;
+    border: navajowhite;
+    padding: 12px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-family: teko;
+    text-transform: uppercase;
+    background: linear-gradient(to left, #fd9424 50%, #050720 50%);
+    background-size: 212%;
+    background-position: right bottom;
+    transition: .8s !important;	
+}
+label.myLabel:hover {
+    background-position: left bottom;
+    background-size: 210%;
+    color: #fff;
+    cursor: pointer;
+}
+label.myLabel span {
+    color: #fff !important;
+}
+label.myLabel input[type="file"] {
+    position: absolute;
+    top: 130px;
+    opacity:0;
+    /*display: none;*/
+}
+.Profile p {
+    text-align: center;
+    font-size: 15px;
+    color: #050720;
+    font-family: manjari-R;
+    font-weight: 600;
+    padding-bottom: 0;
+}
+.Profile ruby {
+    text-align: center;
+    margin: auto;
+    display: table;
+    font-size: 20px;
+    font-family: manjari-R;
+    font-weight: 600;
+    color: #050720;
+}
+.Profile {
+    border: 1px dashed #050720;
+    padding: 15px;
+    border-radius: 10px;
+}
+.profile_view {
+    margin-top: 15px;
+}
+/******USER PROFILE PAGE CSS***************/
+
+/******CHALLENGE HISTORY PAGE CSS**********/
+.user_dashboard ::placeholder {
+    color: #c1c1c1;
+}
+.history_box {
+/*     display: flex; */
+    margin-bottom: 20px;
+    align-items: center;
+}
+.history_box .fields {
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+}
+.history_box a:hover {
+    color: #fd9424;
+}
+.history_box a {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    color: #c1c1c1;
+}
+.history_box textarea {
+    height: 120px;
+}
+.history_box:nth-child(2) {
+    align-items: end;
+}
+.history_box:nth-child(2) label {
+    margin-top: 10px;
+}
+/* .history_box label {
+    width: 25%;
+} */
+
+.history_box .fields input, .history_box .fields textarea, .fields select {
+    border: 1px solid #f3f0f0 !important;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none !important;
+    padding: 10px 10px !important;
+}
+.user_dashboard .user_panel .Profile {
+    border: 1px dashed #050720;
+    padding: 50px;
+    border-radius: 10px;
+}
+.Profile ruby {
+    text-align: center;
+    margin: 30px auto 0px;
+    display: table;
+    font-size: 20px;
+    font-family: manjari-R;
+    font-weight: 600;
+    color: #050720;
+}
+.mark_btn {
+    margin: 0px 0px 10px auto;
+    display: table;	
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    padding: 10px 10px 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: teko;
+    text-transform: uppercase;
+    background: linear-gradient(to left, #fd9424 50%, #050720 50%);
+    background-size: 212%;
+    background-position: right bottom;
+    transition: .8s !important;	
+}
+.mark_btn:hover{
+    background-position: left bottom;
+    background-size: 210%;
+    color: #fff;
+    cursor: pointer;
+}
+
+/******CHALLENGE HISTORY PAGE CSS**********/
+
+/******REVIEW PAGE CSS********************/
+.show-result {
+    margin: 0px;
+    padding: 0px;
+    color: #5f5d5d;
+    font-size: 40px;
+    font-family: manjari-R !important;
+    line-height: 0;
+}
+
+.star-rating s:hover,.star-rating s.active {
+    color: #ff8a0d;
+}
+.star-rating-rtl s:hover,
+.star-rating-rtl s.active {
+    color: #ff8a0d;
+}
+
+.star-rating s {
+    color: #d9dde5;
+    font-size: 50px;
+    cursor: default;
+    text-decoration: none;
+    min-height: 10px !important;
+    line-height: 0;
+}
+.main_reveiws .star-rating {
+    position: relative;
+    top: -13px;
+    margin: 0px 15px;
+}
+.star-rating-rtl {
+    background: #555;
+    display: inline-block;
+    border: 2px solid #444;
+}
+.star-rating-rtl s {
+    color: yellow;
+}
+.star-rating s:hover:before,
+.star-rating s.rated:before,
+.star-rating s.active:before {
+    content: "\f005";
+}
+/* .star-rating s:before {
+    content: "\2606";
+} */
+
+.star-rating s:before {
+    content: "\f005";
+    font-family: fontawesome;
+    font-size: 20px;
+}
+
+.star-rating-rtl s:hover:after,
+.star-rating-rtl s.rated:after,
+.star-rating-rtl s.active:after {
+    content: "\f005";
+}
+
+.star-rating-rtl s:after {
+    content: "\f005";
+}
+.main_reveiws {
+    display: flex;
+    padding: 20px 0px 0px 0px;
+}
+.main_reveiws h6 {
+    font-family: manjari-R !important;
+    font-weight: 600 !important;
+    text-transform: capitalize !important;
+    line-height: 0 !important;
+	font-size:20px !important;
+}
+.reviews_body {
+    border: 1px solid #f3f0f0;
+    padding: 40px;
+}
+.client_reviews {
+    display: flex;
+}
+.client_img img {
+    border-radius: 50%;
+    height: 85px !important;
+    /* border: 2px solid; */
+    width: 123px !important;
+    object-fit: cover;
+    object-position: center;
+}
+.content_box {
+    margin-left: 20px;
+}
+.content_box p {
+    font-family: manjari-R !important;
+    font-size: 15px;
+    padding: 0;
+}
+
+.content_box p b {
+    padding: 0;
+    font-family: manjari-R !important;
+    font-size: 18px;
+}
+.client_reviews {
+    display: flex;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px #0000001c;
+    padding: 15px;
+}
+/******REVIEW PAGE CSS********************/
+
+/******SETTING PAGE CSS*******************/
+.user_dashboard .user_panel .login_clm select, .user_dashboard .user_panel .login_clm textarea {
+    background-color: #fff;
+    box-shadow: none !important;
+    padding: 17px 15px;
+	border:1px solid #f3f0f0;
+	border-radius:0 !important;
+	font-family: manjari-R !important;
+	font-size: 15px;
+	color:#d0d0d0;
+}
+/******SETTING PAGE CSS*******************/
+
+/******CHALLENGE HISTORY PSGE CSS*********/
+table#example ul {
+    margin: 0;
+}
+table ul li{
+	display:inline-block;
+}
+body:not(.woocommerce-cart) .main-content table {
+    padding: 10;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0px 25px !important;
+}
+body:not(.woocommerce-cart) .main-content th {
+    font-family: teko;
+    font-size: 25px;
+    font-weight: 500 !important;
+    text-transform: uppercase;
+    color: #2b2b40;
+    border: none !important;
+}
+body:not(.woocommerce-cart) .main-content td {
+    font-family: manjari-R;
+    font-weight: 600;
+    border: none !important;
+}
+table tbody tr{
+box-shadow: 0 0 20px 6px rgba(62, 57, 107, 0.07), 0 2px 9px 0 rgba(62, 57, 107, 0.06);
+}
+ul.pagination li a {
+    padding: 11px 20px !important;
+    border: 1px solid #dadada;
+    box-sizing: border-box;
+}
+table#example thead tr th {
+    padding: 0px 10px !important;
+    margin: 0 !important;
+}
+table#example ul li a {
+    position: relative;
+}
+table#example ul li a p {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    box-shadow: 0px 0px 15px -3px #00000066;
+    padding: 15px 30px 10px 30px;
+    background-color: #fff;
+    border-radius: 7px;
+    transition: .5s !important;
+    text-transform: uppercase;
+    left: -25px;
+}
+table#example ul li a:hover p {
+    opacity: 1;
+    z-index: 9999 !important;
+}
+/* table#example ul li p:before {
+    content: "";
+    width: 20px !important;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 1px #0000009e;
+    position: absolute;
+    top: -2px;
+    height: 20px;
+    transform: rotate(45deg);
+    left: 35px;
+    border-radius: 4px;
+    z-index: -1;
+} */
+a.view-btnnn:hover {
+   background-position: left bottom;
+    background-size: 210%;
+    color: #fff;	
+	cursor:pointer;	
+}
+a.view-btnnn {
+    color: #fff;
+    padding: 5px 20px 2px 20px;
+    margin: auto;
+    font-family: teko;
+    font-weight: 100;
+    font-size: 20px;
+    background: linear-gradient(to left, #fd9424 50%, #050720 50%);
+    background-size: 212%;
+    background-position: right bottom;
+    transition: .8s !important;
+    display: block;
+    width: 90px;
+    text-align: center;
+    margin: auto 0px 0px 0px;
+}
+/******CHALLENGE HISTORY PSGE CSS*********/
+
+/******OUR CHALLENGE PAGE CSS*************/
+.our_challenges {
+    margin-top: 60px;
+}
+.Challenge_details .details_inner {
+    margin: 35px 0px;
+}
+.Challenge_details .details_inner h6 {
+    margin-bottom: 15px;
+    color: #fe9525;
+}
+
+/******OUR CHALLENGE PAGE CSS*************/
+/************************************CUSTOM PAGES CSS***************************************/
+
+
+div#gallery-sec .flickity-viewport, div#gallery-sec img {
+    height: 500px !important;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page-header-bg-image {
+    background-color: #fff !important;
+}
+
+
+
+img {
+    transition: .4s !important;
+}
+img:hover {
+    filter: brightness(0.5);
+}
+h1,h2,h3,h4,h5{color:#050720;margin:0px;}
+h6 {
+    margin: 0px;
+    line-height: 0px !important;
+}
+
+
+
+
+div#mySlider .image-bg {
+    background-color: #fff !important;
+}
+div#mySlider h2 {
+    margin: 0;
+}
+div#mySlider ruby {
+    color: #ff8f17;
+}
+div#mySlider a.primary-color {
+    padding: 15px 30px 10px 30px !important;
+    border-radius: 0px !important;
+}
+div#mySlider .buttons {
+    padding: 0 !important;
+}
+li#menu-item-29 span {
+    color: #ff8a0d;
+}
+
+
+
+div#About-sec:before {
+    content: url(http://dev3.onlinetestingserver.com/josh-heffler/wp-content/uploads/2020/04/before-bg.png);
+    position: absolute;
+    left: -300px;
+}
+div#About-sec a{
+    font-size: 24px;
+    font-family: teko;
+    background-color: #ff8a0d;
+    color: #fff;
+    padding: 7px 30px 4px 30px !important;
+    border-radius: 0px !important;
+}
+div#About-sec p.read-btn {
+    margin-top: 10px;
+}
+div#About-sec .about-txt {
+    border: 6px solid #ff8a0d;
+    padding: 45px 0px;
+}
+div#About-sec .myInnerTxt {
+    background-color: #fff;
+    padding: 30px 60px 30px 0px;
+    margin-left: -35px;
+	position: relative;
+}
+div#About-sec .myInnerTxt:before {
+    content: url(http://dev3.onlinetestingserver.com/josh-heffler/wp-content/uploads/2020/04/before-abc.png);
+    position: absolute;
+    right: 45px;
+    bottom: 0;
+}
+/* div#About-sec .myInnerTxt:before {
+    -webkit-animation: mover 3s infinite  alternate;
+    animation: mover 3s infinite  alternate;
+} */
+
+div#About-sec .myInnerTxt:before {
+		-webkit-animation: rotation 9s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+
+
+
+div#FIND-sec h1 {
+    margin-bottom: 12px;
+}
+div#FIND-sec h6 {
+    padding: 0% 21% !important;
+    line-height: 22px !important;
+    font-size: 24px !important;
+}
+div#FIND-sec a {
+    font-size: 24px;
+    font-family: teko;
+    background-color: #ff8a0d;
+    color: #fff;
+    padding: 14px 40px 12px 40px !important;
+    border-radius: 0px !important;
+}
+
+
+
+
+div#Gallery-sec .about-txt {
+    margin-bottom: 10px;
+}
+div#Gallery-sec img:hover {
+    filter: brightness(0.5);
+}
+div#Gallery-sec img {
+    width: 100% !important;
+    transition: .4s !important;
+}
+
+
+div#EXPLORE-sec .wpb_text_column {
+    margin-bottom: 0 !important;
+}
+
+
+
+
+
+
+div#testimonials-sec .about-txt {
+    padding: 0% 12%;
+    margin-bottom: 50px;
+}
+div#testimonials-sec blockquote.is-selected {
+    opacity: 1;
+    background-image: url(http://dev3.onlinetestingserver.com/josh-heffler/wp-content/uploads/2020/04/testi-bg.png) !important;
+    background-repeat: no-repeat;
+    background-size: 112% 111%;
+    background-position: -35px -24px;
+    padding: 73px;
+    top: -19px;
+    z-index: 999;
+    background-color: #ff8a0d;
+}
+
+div#testimonials-sec .dark .testimonial_slider[data-style="multiple_visible"] blockquote.is-selected p {
+    background-color: transparent !important;
+    padding: 0px 0px !important;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    line-height: 27px;
+    font-family: spartan;
+    margin-bottom: 0;
+}
+div#testimonials-sec .dark .testimonial_slider[data-style="multiple_visible"] blockquote.is-selected p:before {
+    content: url(http://dev3.onlinetestingserver.com/josh-heffler/wp-content/uploads/2020/04/testi-before.png);
+    position: absolute;
+    left: -34px;
+    top: -136px;
+    opacity: 0.4;
+}
+div#testimonials-sec blockquote.is-selected span {
+    color: #fff !important;
+}
+div#testimonials-sec blockquote {
+    padding: 52px;
+    box-shadow: 0 0 17px -6px black;
+    border-radius: 24px;
+    background-color: #fff;
+}
+div#testimonials-sec .testimonial_slider[data-rating-color="accent-color"] .star-rating .filled:before {
+    color: #f3b945 !important;
+    float: unset;
+}
+div#testimonials-sec .testimonial_slider[data-style*="multiple_visible"] blockquote p {
+    text-align: center !important;
+    padding: 0px 0px 0px 0px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    font-size: 17px !important;
+    line-height: 27px;
+    font-family: spartan;
+}
+div#testimonials-sec .testimonial_slider[data-style="multiple_visible"] blockquote p .bottom-arrow:after{
+	display:none !important;
+}
+.testimonial_slider[data-style*="multiple_visible"] blockquote {
+    opacity: 1 !important;
+}
+div#testimonials-sec .testimonial_slider blockquote span, .nectar_single_testimonial span {
+    font-size: 20px;
+    display: block;
+    line-height: 22px;
+    font-family: spartan !important;
+    font-weight: 700;
+    color: #1d2130;
+}
+.testimonial_slider .star-rating:before{
+	display:none;
+}
+div#testimonials-sec .testimonial_slider[data-style="multiple_visible"] blockquote p:before {
+    opacity: 1 !important;
+	content:unset;
+}
+div#testimonials-sec .testimonial_slider[data-style="multiple_visible"] .image-icon {
+    width: 130px !important;
+    height: 130px !important;
+	margin-top:20px !important;
+}
+
+
+#footer-outer #footer-widgets {
+    background-image: url(http://dev3.onlinetestingserver.com/josh-heffler/wp-content/uploads/2020/04/footer-bg.png) !important;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#footer-outer #footer-widgets h6 {
+    color: #e77d0e !important;
+}
+#footer-outer #footer-widgets h2 {
+    color: #fff !important;
+}
+#footer-outer #footer-widgets .col input[type=text], #footer-outer #footer-widgets .col input[type=email] {
+    padding: 15px;
+    width: 100%;
+    border-radius: 0 !important;
+    position: relative;
+}
+div#newsletterwidgetminimal-2 {
+    width: 50%;
+    position: relative;
+    margin: auto;
+    display: table;
+}
+#footer-outer #footer-widgets div#newsletterwidgetminimal-2 input.tnp-submit {
+    position: absolute;
+    width: unset;
+    right: 0;
+}
+#footer-outer #footer-widgets div#newsletterwidgetminimal-2 input.tnp-submit {
+    position: absolute;
+    width: unset;
+    right: 0;
+    border-radius: 0 !important;
+    padding: 11px 35px;
+    font-family: teko;
+    font-size: 24px;
+    font-weight: 100 !important;
+}
+div#nav_menu-3 ul#menu-navigation-1 li a {
+    border-bottom: 1px solid !important;
+    line-height: 19px;
+    text-transform: uppercase;
+    font-family: heebo;
+}
+#footer-outer .widget h4, #sidebar h4 {
+    margin-bottom: 15px;
+    font-size: 36px !important;
+    font-weight: 100 !important;
+}
+#footer-outer ul#innersocial li {
+    display: inline-block;
+    margin: 0px 2px;
+}
+#footer-outer ul#innersocial li a i {
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    LINE-HEIGHT: 45PX;
+    background: white !important;
+    color: #0f151b;
+    font-size: 25px;
+}
+#footer-outer ul#innersocial li a i:hover {
+   background: #ff8a0d!important;
+color:WHITE !IMPORTANT;
+}
+#footer-outer div#media_image-2 {
+    margin-bottom: 0 !important;
+}
+
+
+div#copyright {
+    padding: 20px 0px !important;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.owl-carousel .owl-stage {
+    padding: 0px 0 !important;
+}
+
+
+
+@media (max-width: 1600px) {
+div#About-sec:before {
+    left: -170px;
+}	
+#footer-outer #footer-widgets {
+    padding: 5% 0% 0% 0% !important;
+}	
+}
+@media(max-width:1440px) {
+header#top {
+    padding: 0px 20px;
+}	
+.flickity-page-dots {
+    bottom: -36px;
+}	
+}
+@media (max-width: 1366px) {
+.flickity-page-dots {
+    bottom: -65px;
+}
+div#About-sec:before {
+    left: -192px;
+}
+div#testimonials-sec blockquote.is-selected {
+    top: -34px;
+}	
+}
+@media (max-width: 1280px) {
+.client_img img {
+    height: 74px !important;
+}	
+header#top nav > ul > li > a, .span_3 .pull-left-wrap > ul > li > a, body.material #search-outer #search input[type="text"], #header-secondary-outer .nectar-center-text, #slide-out-widget-area .secondary-header-text {
+    font-size: 13px !important;
+}	
+#header-outer #logo img, body.material #header-outer .logo-spacing img {
+    height: 20px !important;
+}	
+div#mySlider h2 {
+    margin: 0;
+    font-size: 100px !important;
+    line-height: 75px !important;
+}	
+div#mySlider p {
+    font-size: 25px !important;
+    padding-bottom: 0;
+}	
+div#testimonials-sec .about-txt {
+    padding: 0% 7%;
+    margin-bottom: 75px;
+}
+div#testimonials-sec blockquote.is-selected {
+    top: -20px;
+}	
+}
+@media (max-width: 1024px) {
+.client_img img {
+    height: 74px !important;
+    width: 177px !important;
+}	
+.user_dashboard .menu_panel ul li a {
+    padding: 15px 0px !important;
+}
+.user_dashboard .user_panel .user_box .icon_box {
+    width: 60px;
+    margin-right: 10px;
+}	
+.user_dashboard .user_panel .user_box h4 {
+    font-size: 27px;
+    line-height: 21px;
+}	
+div#FIND-sec h6 {
+    padding: 0% 12% !important;
+}
+div#newsletterwidgetminimal-2 {
+    width: 75%;
+}
+.user_dashboard .user_panel .login_clm {
+    padding: 30px 5px;
+}	
+.Profile {
+    padding: 7px;
+    border-radius: 10px;
+}	
+}
+@media (max-width: 800px) {
+.login_clm button, .user_dashboard button {
+    margin-top: 15px !important;
+}	
+.user_dashboard .user_panel .login_clm {
+	padding: 30px 15px;
+    min-height: auto !important;
+}	
+.user_dashboard .user_panel {
+    margin-bottom: 0px !important;
+}	
+.phone_menu_btn {
+    display: block !important;
+}	
+.user_dashboard .menu_panel {
+    display: none;
+}	
+.user_dashboard .menu_panel ul li a {
+    padding: 15px 15px !important;
+}	
+.forget_pass {
+    padding: 0% 10%;
+}	
+.login_clm .social_btns ul li img {
+    margin-bottom: 0 !important;
+}	
+	
+.login_clm .regiter_box {
+    display: block;
+}	
+.login_clm {
+    min-height: unset;
+}
+.login_clm .regiter_box .col.span_5.col_last {
+    margin-bottom: 0 !important;
+}	
+.main_sec .login_clm .col.span_6 {
+    width: 49%;
+}	
+.login_clm .social_btns ul {
+    margin: 0px !important;
+}	
+.login_clm .social_btns ul li {
+    display: inline-block;
+    margin-right: 15px;
+}	
+.content {
+    padding: 0px !important;
+}	
+div#mySlider h2 {
+    margin: 0;
+    font-size: 55px !important;
+    line-height: 43px !important;
+}	
+div#mySlider p {
+    font-size: 20px !important;
+    padding-bottom: 0;
+}	
+div#mySlider a.primary-color {
+    padding: 13px 30px 10px 30px !important;
+    border-radius: 0px !important;
+    font-size: 20px !important;
+}	
+body header#top #logo img, #header-outer[data-permanent-transparent="false"] #logo .dark-version {
+    height: 18px!important;
+}	
+div#nav_menu-3 ul#menu-navigation-1 li {
+    margin: 0px 10px !important;
+}
+div#newsletterwidgetminimal-2 {
+    width: 100%;
+}	
+}
+@media (max-width: 768px) {}
+@media (max-width: 480px) {
+.client_reviews {
+    display: block;
+}	
+.client_img img {
+    height: 74px !important;
+    width: 74px !important;
+    margin-bottom: 0 !important;
+}	
+.content_box {
+    margin-left: 0px !important;
+}	
+.phone_menu_body {
+    padding: 17% 0%;
+}	
+.main_sec .forget_pass {
+    padding: 0% 0% !important;
+}	
+.login_clm .social_btns ul li:first-child img {
+    margin-bottom: 15px !important;
+}	
+div#mySlider h2 {
+    font-size: 39px !important;
+    line-height: 33px !important;
+}	
+div#mySlider p {
+    font-size: 19px !important;
+    line-height: 20px !important;
+}
+div#mySlider br {
+    display: none !important;
+}	
+div#About-sec .myInnerTxt {
+    padding: 30px 30px 30px 30px;
+    margin-left: 0px;
+}
+div#About-sec .about-txt {
+    padding: 10px 0px;
+}	
+div#FIND-sec {
+    padding-top: 55px !important;
+    padding-bottom: 10px !important;
+}
+div#FIND-sec h6 {
+    padding: 0% 0% !important;
+}
+div#newsletterwidgetminimal-2 {
+    width: 100%;
+}	
+div#copyright .col.span_7.col_last {
+    margin: 0 !important;
+}	
+div#testimonials-sec blockquote.is-selected {
+    padding: 42px;
+}	
+div#testimonials-sec blockquote {
+    padding: 22px;
+}	
+div#testimonials-sec .about-txt {
+    padding: 0% 7%;
+    margin-bottom: 30px;
+}	
+.testimonial_slider .flickity-page-dots {
+    display:none !important;
+}	
+div#testimonials-sec {
+    padding-bottom: 0 !important;
+    padding-top: 30px !important;
+}	
+div#Gallery-sec {
+    padding-bottom: 0 !important;
+}	
+.reviews_body {
+    border: 1px solid #f3f0f0;
+    padding: 30px;
+}	
+}
+@media (max-width: 414px) {
+.reviews_body {
+    border: 1px solid #f3f0f0;
+    padding: 20px;
+}	
+.star-rating s:before {
+    font-size: 17px;
+}	
+.show-result {
+    font-size: 30px;
+    line-height: 6px;
+}	
+.phone_menu_body {
+    padding: 24% 0%;
+}	
+div#testimonials-sec blockquote.is-selected {
+    padding: 20px;
+}
+div#testimonials-sec blockquote {
+    padding: 0px;
+}	
+
+}
+.sb-progress {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 15px;
+  width: 300px;
+}
+.sb-progress::-webkit-progress-bar, .sb-progress::-webkit-progress-value {
+  border-radius: 3px;
+}
+.sb-progress--orange::-webkit-progress-bar {
+  background-color: #ffe0b2;
+}
+.sb-progress--orange::-webkit-progress-value {
+  background-color: #ffa726;
+}
+
+@media (max-width: 375px) {}
+@media (max-width: 360px) {}
+
+
+
